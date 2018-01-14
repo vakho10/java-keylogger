@@ -17,7 +17,7 @@
 	</properties>
 
 	<dependencies>
-	
+
 		<!-- https://mvnrepository.com/artifact/com.1stleg/jnativehook -->
 		<dependency>
 			<groupId>com.1stleg</groupId>
@@ -48,6 +48,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>${project.artifactId}</finalName>
 		<plugins>
 			<!-- Assemble into single executable JAR file -->
 			<plugin>
