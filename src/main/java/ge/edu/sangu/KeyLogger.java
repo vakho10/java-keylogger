@@ -1,4 +1,4 @@
-package ge.vakho;
+package ge.edu.sangu;
 
 import java.io.IOException;
 import java.io.OutputStream;
